@@ -1,16 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec  2 10:46:09 2025
 
-@author: Admin
-"""
 
 from PyQt5 import QtWidgets, QtGui, QtCore
 import sys
 import cv2
 import numpy as np
-
-# ---------- Image processing helpers ----------
 
 def order_points(pts):
     # Order points: top-left, top-right, bottom-right, bottom-left
@@ -285,3 +278,4 @@ if __name__ == "__main__":
     win = DocScannerApp()
     win.show()
     sys.exit(app.exec_())
+
